@@ -22,18 +22,20 @@ public class Order {
     }
 
     public double calculateShipping() {
-        // declare conditional statement here
-        if (shipping.equals("Regular")) {
-            return 0;
+        double shippingCost;
+        switch(shipping){
+            case "Regular":
+                shippingCost = 0;
+                break;
+            case "Express":
+                shippingCost = 1.75;
+                break;
+            default:
+                shippingCost = .50;
+                break;
         }
 
-        else if (shipping.equals("Express")) {
-            return 1.75;
-        }
-
-        else {
-            return .50;
-        }
+        return shippingCost;
     }
 
     public static void main(String[] args) {
