@@ -1,3 +1,5 @@
+package aulas;
+
 public class Order {
     boolean isFilled;
     double billAmount;
