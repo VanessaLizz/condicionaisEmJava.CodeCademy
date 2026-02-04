@@ -1,4 +1,4 @@
-package aulas;
+package projetosParaPraticar;
 
 //criação de uma calculadora de financiamento de veículos - projeto prático da codecademy
 
