@@ -9,5 +9,6 @@ public class Main {
         sampleFeed.setFavoriteArticle(0, "Oil News");
 
         System.out.println(Arrays.toString(sampleFeed.favoriteArticles));
+
     }
 }
