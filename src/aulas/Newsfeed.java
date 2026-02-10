@@ -17,6 +17,10 @@ public class Newsfeed {
         return topics;
     }
 
+    public int getNumTopics(){
+        return topics.length;
+    }
+
     public String getFirstTopic(){
         return topics[0];
     }
