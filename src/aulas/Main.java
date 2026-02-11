@@ -2,7 +2,24 @@ package aulas;
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-        Newsfeed sampleFeed = new Newsfeed();
+        Newsfeed feed;
+        if(args[0].equals("Robot")){
+            //topics for a Robot feed:
+            String[] robotTopics = {"Oil", "Parts", "Algorithms", "Love"};
+            feed = new Newsfeed(robotTopics);
+        }
+        else if(args[0].equals("Human")){
+            //topics for a Human feed:
+            String[] humanTopics = {"Politics", "Science", "Sports", "Love"};
+            feed = new Newsfeed(humanTopics);
+        }
+        else{
+            String[] genericTopics = {"Opinion", "Tech", "Science", "Health"};
+            feed = new Newsfeed(genericTopics);
+        }
+
+        System.out.println("The topics in this feed are:");
+        System.out.println(Arrays.toString(feed.topics));
 
         sampleFeed.setFavoriteArticle(2, "Humans: Exterminate Or Not?");
         sampleFeed.setFavoriteArticle(3, "Organic Eye Implants");
