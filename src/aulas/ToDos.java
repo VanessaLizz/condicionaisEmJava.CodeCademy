@@ -37,8 +37,11 @@ class ToDos {
 
         System.out.println(sherlocksToDos.size());
         System.out.println(poirotsToDos.size());
-
-        // Print the name of the detective with the larger to-do list:
         System.out.println("Poirot");
+
+        //acessando um índice - get
+
+        System.out.println(sherlocksToDos.get(2));
+        System.out.println(poirotsToDos.get(1));
     }
 }
