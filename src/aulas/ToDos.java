@@ -39,9 +39,21 @@ class ToDos {
         System.out.println(poirotsToDos.size());
         System.out.println("Poirot");
 
+        // Set each to-do below:
+        sherlocksToDos.set(1, "listen to Dr. Watson for amusement");
+        poirotsToDos.set(3, "listen to Captain Hastings for amusement");
+
+        // Remove each to-do below:
+        sherlocksToDos.remove("visit the crime scene");
+        sherlocksToDos.remove("play violin");
+        poirotsToDos.remove("visit the crime scene");
+
         //acessando um índice - get
 
         System.out.println(sherlocksToDos.get(2));
         System.out.println(poirotsToDos.get(1));
+
+        // Calculate to-dos until case is solved:
+        System.out.println(sherlocksToDos.indexOf("solve the case"));
     }
 }
