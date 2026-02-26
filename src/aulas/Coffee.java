@@ -10,5 +10,9 @@ public class Coffee {
             System.out.println("Fry drinks cup of coffee #" + cupsOfCoffee);
         }
 
+        for (int cupsOfCoffee2 = 1; cupsOfCoffee2 <= 100; cupsOfCoffee2++) {
+
+            System.out.println("Fry drinks cup of coffee #" + cupsOfCoffee2);
+        }
     }
 }
