@@ -20,6 +20,12 @@ public class TweetCounter {
         String password = "correcthorsebatterystaple";
         // Write the code:
         System.out.println(password.equals("Reficofage"));
+
+        //TOSTRING
+
+        String line = "The Heav'ns and all the Constellations rung";
+        // Change the arguments:
+        System.out.println(line.substring(4, 11));
     }
 
 }
