@@ -26,6 +26,12 @@ public class TweetCounter {
         String line = "The Heav'ns and all the Constellations rung";
         // Change the arguments:
         System.out.println(line.substring(4, 11));
+
+        String hashtag = "#100DaysOfCode";
+
+        // Make the hashtag lowercase and upercase:
+        System.out.println(hashtag.toLowerCase());
+        System.out.println(hashtag.toUpperCase());
     }
 
 }
