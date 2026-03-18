@@ -23,4 +23,12 @@ public class CheckingAccount{
         System.out.println("Account balance is " + balance);
     }
 
+    public int getBalance(){
+        return this.balance;
+    }
+
+    public void setBalance(int newBalance){
+        this.balance = newBalance;
+    }
+
 }

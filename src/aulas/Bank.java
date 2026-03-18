@@ -7,5 +7,9 @@ public class Bank{
         CheckingAccount myAccount = new CheckingAccount("Mike", 300, "3");
 
         myAccount.printBalance();
+
+        System.out.println(accountOne.getBalance());
+        accountOne.setBalance(5000);
+        System.out.println(accountOne.getBalance());
     }
 }
