@@ -6,5 +6,11 @@ public class Main{
 
         // Make a call to addMoney() to test your method
         zeusSavingsAccount.addMoney(2000);
+
+        Person emily = new Person(20);
+        emily.hasBirthday();
+        System.out.println("New age is: " + emily.age);
+        System.out.println("New wisdom is: " + emily.wisdom);
+        System.out.println("New fitness is: " + emily.fitness);
     }
 }
