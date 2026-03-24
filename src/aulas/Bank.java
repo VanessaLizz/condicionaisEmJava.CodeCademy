@@ -11,5 +11,8 @@ public class Bank{
         System.out.println(accountOne.getBalance());
         accountOne.setBalance(5000);
         System.out.println(accountOne.getBalance());
+
+        accountOne.getAccountInformation();
+
     }
 }
