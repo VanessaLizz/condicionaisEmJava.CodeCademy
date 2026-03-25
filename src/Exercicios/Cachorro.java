@@ -5,6 +5,11 @@ public class Cachorro extends Animal{
         super(nome);
     }
 
+    public class Dog{
+        private String name;
+        private int age;
+    }
+
     @Override
     public void fazerSom(){
         System.out.println("Au Au!");
