@@ -12,5 +12,15 @@ public class Main{
         System.out.println("New age is: " + emily.age);
         System.out.println("New wisdom is: " + emily.wisdom);
         System.out.println("New fitness is: " + emily.fitness);
+
+        //Aplicando herança e polimorfismo
+
+        Spaghetti spaghettiPomodoro = new Spaghetti();
+        System.out.println(spaghettiPomodoro.texture);
+
+        //Herdando construtor
+
+        Pho phoChay = new Pho();
+        System.out.println(phoChay.shape);
     }
 }
