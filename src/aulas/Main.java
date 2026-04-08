@@ -22,5 +22,10 @@ public class Main{
 
         Pho phoChay = new Pho();
         System.out.println(phoChay.shape);
+
+        Dinner noodlesDinner = new Dinner();
+        Noodle biangBiang = new BiangBiang();
+
+        noodlesDinner.makeNoodles(biangBiang, "soy sauce and chili oil");
     }
 }
