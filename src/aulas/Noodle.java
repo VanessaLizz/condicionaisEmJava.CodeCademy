@@ -20,6 +20,7 @@ class Noodle {
     }
 
     public void cook() {
+        System.out.println("Boiling.");
         this.texture = "cooked";
     }
 }
