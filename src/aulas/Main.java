@@ -39,5 +39,9 @@ public class Main{
         for(Noodle noodle: allTheNoodles){
             System.out.println(noodle.getCookPrep());
         }
+
+        NoodleRestaurant customer1 = new NoodleRestaurant("Sagirah");
+
+        customer1.order(pho);
     }
 }
