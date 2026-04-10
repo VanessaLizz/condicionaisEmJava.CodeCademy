@@ -27,5 +27,17 @@ public class Main{
         Noodle biangBiang = new BiangBiang();
 
         noodlesDinner.makeNoodles(biangBiang, "soy sauce and chili oil");
+
+        Noodle spaghetti, ramen, pho;
+
+        spaghetti = new Spaghetti();
+        ramen = new Ramen();
+        pho = new Pho();
+
+        // Add your code below:
+        Noodle[] allTheNoodles = {spaghetti, ramen, pho};
+        for(Noodle noodle: allTheNoodles){
+            System.out.println(noodle.getCookPrep());
+        }
     }
 }
