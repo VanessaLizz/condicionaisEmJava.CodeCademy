@@ -1,4 +1,5 @@
 package aulas;
 
-public class SinoTibetan {
+public class SinoTibetan extends Language {
+
 }
