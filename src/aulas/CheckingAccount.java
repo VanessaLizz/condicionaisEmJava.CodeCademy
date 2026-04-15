@@ -35,7 +35,7 @@ public class CheckingAccount{
         System.out.println("Next Month's Interest: " + this.calculateNextMonthInterest());
     }
 
-    private int getBalance(){
+    int getBalance(){
         return this.balance;
     }
 

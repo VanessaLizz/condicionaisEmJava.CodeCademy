@@ -40,8 +40,8 @@ public class Main{
             System.out.println(noodle.getCookPrep());
         }
 
-        NoodleRestaurant customer1 = new NoodleRestaurant("Sagirah");
+        NoodleRestaurant customer1 = new NoodleRestaurant();
 
-        customer1.order(pho);
+        customer1.wait(pho);
     }
 }

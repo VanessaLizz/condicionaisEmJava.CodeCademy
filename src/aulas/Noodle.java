@@ -3,7 +3,7 @@ package aulas;
 class Noodle {
     private double lengthInCentimeters;
     private double widthInCentimeters;
-    private String shape;
+    String shape;
     protected String ingredients;
     protected String texture = "brittle";
 
@@ -13,6 +13,10 @@ class Noodle {
         this.widthInCentimeters = wthInCent;
         this.shape = shp;
         this.ingredients = ingr;
+    }
+
+    public Noodle() {
+
     }
 
     public final boolean isTasty() {
