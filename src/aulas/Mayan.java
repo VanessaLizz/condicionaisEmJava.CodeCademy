@@ -1,7 +1,7 @@
 package aulas;
 
 public class Mayan extends Language {
-    Mayan(String langName, int speakers){
+    Mayan(String langName, long speakers){
         super(langName, speakers, "Central America", "verb-object-subject");
     }
 
