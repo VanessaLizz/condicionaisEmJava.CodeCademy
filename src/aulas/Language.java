@@ -21,5 +21,8 @@ class Language {
     public static void main (String[] args){
         Language portugueseBr = new Language("Portuguese-Br", 210000000, "Brazil, EUA, Portugal, Japan, Paraguay, Spain e UK", "subject-verb-object");
         portugueseBr.getInfo();
+
+        Mayan tenek = new Mayan("Tének", 168729);
+        tenek.getInfo();
     }
 }
