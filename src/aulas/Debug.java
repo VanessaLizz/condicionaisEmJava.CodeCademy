@@ -1,16 +1,16 @@
 package aulas;
 
 public class Debug {
-    int width = 20;
+    int width = 0;
     int length = 40;
-    int ratio = length / width;
+    int ratio = width / length;
 
     public void main(String[] args) {
         System.out.println("       1");
         System.out.println("     2 3");
         System.out.println("   4 5 6");
         System.out.println("7 8 9 10");
-        System.out.println("20 / 40 (Width / Length) = " + ratio);
+        System.out.println("0 / 40 (Width / Length) = " + ratio);
 
         int[] numbers = {1, 2, 3, 4, 5};
         int lastNumber = numbers[4];
@@ -20,6 +20,11 @@ public class Debug {
             int ratio = length / width;
         } catch (ArithmeticException e) {
             System.err.println("ArithmeticException: " + e.getMessage());
+        }
+
+        int steps = 10;
+        for (int i = 1; i <= steps; i++) {
+            System.out.println("Step #" + i);
         }
     }
 }
