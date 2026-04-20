@@ -43,5 +43,10 @@ public class Main{
         NoodleRestaurant customer1 = new NoodleRestaurant();
 
         customer1.wait(pho);
+
+        //MATRIZES BIDIMENSIONAIS
+
+        // Declare a 2d array of float values called floatTwoD
+        float[][] floatTwoD;
     }
 }
