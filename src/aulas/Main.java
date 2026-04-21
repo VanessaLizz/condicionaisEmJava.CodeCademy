@@ -61,5 +61,8 @@ public class Main{
         };
         int retrievedInt = intMatrix[0][3];
         System.out.println(retrievedInt);
+
+        int result = intMatrix[1][2] * 3;
+        System.out.println(result);
     }
 }
