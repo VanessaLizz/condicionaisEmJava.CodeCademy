@@ -64,5 +64,9 @@ public class Main{
 
         int result = intMatrix[1][2] * 3;
         System.out.println(result);
+
+        // Declare and initialize a 2D array called subMatrix
+        int[][] subMatrix;
+        subMatrix = new int[2][2];
     }
 }
