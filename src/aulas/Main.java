@@ -77,5 +77,14 @@ public class Main{
         subMatrix[1][1] = intMatrix[1][1] * 5;
 
         System.out.println(Arrays.deepToString(subMatrix));
+
+        int tableSize = 10;
+        for(int i = 1; i <= 10; i++){
+            for(int j = 1; j <= 10; j++){
+                System.out.print(i * j);
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
     }
 }
