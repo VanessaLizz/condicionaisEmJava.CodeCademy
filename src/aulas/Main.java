@@ -148,5 +148,21 @@ public class Main{
             System.out.println("Sum of runner " + outer + " times: " + runnerTime);
             System.out.println("Average of runner " + outer + ": " + averageVal);
         }
+
+        // Given runner lap data
+        double[][] times2 = {{64.791, 75.972, 68.950, 79.039, 73.006, 74.157}, {67.768, 69.334, 70.450, 67.667, 75.686, 76.298}, {72.653, 77.649, 74.245, 62.121, 63.379, 79.354}};
+        double lapTime2 = 0.0;
+        for(int outer = 0; outer < times2[0].length; outer++){
+            lapTime2 = 0.0;
+            for(int inner = 0; inner < times2.length; inner++){
+                System.out.println("Lap index: " + outer + ", Time index: " + inner);
+                // Add a line to sum up the values
+                lapTime2+=times2[inner][outer];
+            }
+            double averageVal = 0;
+            averageVal = lapTime2 / times2.length;
+            System.out.println("Sum of lap " + outer + " times: " + lapTime2);
+            System.out.println("Average time for lap " + outer + ": " + averageVal);
+        }
     }
 }
