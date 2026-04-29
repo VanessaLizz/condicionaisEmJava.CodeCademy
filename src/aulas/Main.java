@@ -164,5 +164,33 @@ public class Main{
             System.out.println("Sum of lap " + outer + " times: " + lapTime2);
             System.out.println("Average time for lap " + outer + ": " + averageVal);
         }
+
+        int[][] imageData={
+                {100,90,255,80,70,255,60,50},
+                {255,10,5,255,10,5,255,255},
+                {255,255,255,0,255,255,255,75},
+                {255,60,30,0,30,60,255,255}
+        };
+        // Declare and initialize the 2D array newImage
+        int[][] newImage = new int[4][6];
+        // Add a nested `for` loop and copy the data of `imagedata` to `newImage`
+        for(int x=0; i<newImage.length; x++){
+            for(int y=0; y<newImage[x].length; y++){
+                newImage[x][y] = imageData[x][y];
+            }
+        }
+        System.out.println(Arrays.deepToString(newImage));
+        for(int x=0; x<newImage.length; x++){
+            for(int y=0; y<newImage[x].length; y++){
+                // Add the if-else statement here
+                if(newImage[x][y]-50<0){
+                    newImage[x][y] = 0;
+                }
+                else{
+                    newImage[x][y]-=50;
+                }
+            }
+        }
+        System.out.println(Arrays.deepToString(newImage));
     }
 }
